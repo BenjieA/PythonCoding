@@ -6,7 +6,7 @@ def multi_finder(maxval, minval, tohave, toavoid):
     for i in range(maxval):
         if i>minval and i % tohave == 0 and i % toavoid != 0:
             trutharray.append(i)
-    print(str(trutharray).strip('[]' ))
+    print(str(trutharray).strip('[]'))
 
-multi_finder(3200,2000, 7, 5) c 
+multi_finder(3200,2000, 7, 5)
 
